@@ -110,10 +110,10 @@
 
         raise_layer {
             bindings = <
-&trans  &kp ESC     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp HOME  &trans    &kp UP    &trans     &trans  &trans
-&trans  &kp CAPS    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp AT           &kp END   &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &kp DELETE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT          &trans    &trans    &trans    &trans     &trans  &trans
-                                     &trans           &trans           &trans           &trans    &trans    &trans
+&kp TAB    &kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4           &kp NUMBER_5  &trans  &trans           &trans             &trans         &trans             &trans
+&kp ENTER  &kp NUMBER_6          &kp NUMBER_7  &kp N8        &kp NUMBER_9           &kp N0        &trans  &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans
+&kp EQUAL  &kp LEFT_PARENTHESIS  &kp PLUS      &kp MINUS     &kp RIGHT_PARENTHESIS  &kp DOT       &trans  &trans           &trans             &trans         &trans             &kp GLOBE
+                                               &trans        &kp BACKSPACE          &kp SPACE     &trans  &trans           &trans
             >;
         };
 
